@@ -1,3 +1,6 @@
+
+nltk.download('vader_lexicon')
+nltk.download('punkt')
 import pandas as pd
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from textblob import TextBlob
